@@ -1,6 +1,6 @@
-/**
- * Interface para registros de tarefas.
- */
+
+  // Interface para registros de tarefas.
+ 
 export interface Task {
   id: number;
   title: string;
@@ -8,9 +8,9 @@ export interface Task {
   status: number;
 }
 
-/**
- * Interface para listagem de tarefas.
- */
+
+  // Interface para listagem de tarefas.
+
 export interface Tasks {
   items: Array<Task>;
   hasNext: boolean;

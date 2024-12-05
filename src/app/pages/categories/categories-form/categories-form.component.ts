@@ -62,9 +62,6 @@ export class CategoriesFormComponent implements OnInit {
     let message: string = this.operation === 'new' ? 'Registro incluído com sucesso.' : 'Registro alterado com sucesso.'
     this.poNotificationService.success(message);
     this.router.navigate(['categories']);
-    // this.categoriesService.post(this.category).subscribe({
-    //   next: () => console.log('ok')
-    // });
   }
 
   cancel(): void {

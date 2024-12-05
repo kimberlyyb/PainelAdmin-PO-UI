@@ -27,8 +27,6 @@ export class TasksFormComponent implements OnInit {
     { label: 'Cancelar', action: this.cancel.bind(this) }
   ]
 
-
-
   readonly fields: Array<PoDynamicFormField> = [
     { property: 'id', required: true, label: 'Código', gridLgColumns: 1, gridMdColumns: 1, gridSmColumns: 12 },
     { property: 'name', required: true, label: 'Nome', gridLgColumns: 4, gridMdColumns: 4, gridSmColumns: 12 },
@@ -84,9 +82,6 @@ export class TasksFormComponent implements OnInit {
     let message: string = this.operation === 'new' ? 'Registro incluído com sucesso.' : 'Registro alterado com sucesso.'
     this.poNotificationService.success(message);
     this.router.navigate(['']);
-    // this.tasksService.post(this.task).subscribe({
-    //   next: () => console.log('ok')
-    // });
   }
 
   cancel(): void {
