@@ -1,0 +1,7 @@
+<po-page-default [p-title]="getTitlePage()" [p-actions]="actions">
+  <po-dynamic-form #taskForm
+    [p-fields]="fields"
+    [p-value]="category"
+    (p-form)="getForm($event)">
+  </po-dynamic-form>
+</po-page-default>
