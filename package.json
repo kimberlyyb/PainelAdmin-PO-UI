@@ -23,6 +23,7 @@
     "@po-ui/ng-components": "^17.26.7",
     "@po-ui/ng-templates": "^17.26.7",
     "json-server": "^1.0.0-beta.3",
+    "phosphor-icons": "^1.4.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"

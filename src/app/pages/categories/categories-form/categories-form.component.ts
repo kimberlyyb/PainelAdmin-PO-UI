@@ -66,7 +66,7 @@ export class CategoriesFormComponent implements OnInit {
 
   cancel(): void {
     this.poDialogService.confirm({
-      title: 'Cacenlar',
+      title: 'Cancelar',
       message: 'As informações não ficarão salvas. Tem certeza que deseja cancelar?',
       confirm: () => this.router.navigate(['categories'])
     })

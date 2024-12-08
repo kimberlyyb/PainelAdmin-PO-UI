@@ -4,13 +4,15 @@ import { ToolbarComponent } from './toolbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports: [
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatIconModule
   ],
   declarations: [ToolbarComponent],
   exports: [ToolbarComponent]

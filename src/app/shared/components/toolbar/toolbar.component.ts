@@ -23,4 +23,12 @@ export class ToolbarComponent {
   goToHome(): void {
     this.router.navigate(['/']);
   }
+
+  goToItens(): void {
+    this.router.navigate(['itens']);
+  }
+
+  goToColor(): void {
+    this.router.navigate(['color']);
+  }
 }

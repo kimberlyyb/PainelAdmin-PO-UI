@@ -1,0 +1,11 @@
+<po-page-default [p-title]="getTitlePage()" [p-actions]="actions">
+    <po-dynamic-form #itensForm
+      [p-fields]="fields"
+      [p-value]="itens"
+      (p-form)="getForm($event)">
+    </po-dynamic-form>
+    <div *ngIf="itens?.image" style="margin-top: 16px;">
+      <p><strong>Pré-visualização da Imagem:</strong></p>
+      <img [src]="itens.image" alt="Imagem do Produto" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 8px;" />
+    </div>
+  </po-page-default>
