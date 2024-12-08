@@ -1,0 +1,7 @@
+<po-page-default [p-title]="getTitlePage()" [p-actions]="actions">
+    <po-dynamic-form #itensForm
+      [p-fields]="fields"
+      [p-value]="color"
+      (p-form)="getForm($event)">
+    </po-dynamic-form>
+  </po-page-default>
