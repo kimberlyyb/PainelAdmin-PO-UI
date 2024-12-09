@@ -19,7 +19,7 @@
         { "id": 16, "name": "Caneta com Marca Texto", "category": "Acessorios", "descricao": "Caneta esferográfica azul com marca texto" },
         { "id": 17, "name": "Camiseta Padawan Cat", "category": "Adulto", "descricao": "Camiseta Preta 100% Algodão" },
         { "id": 18, "name": "Adesivo Onca Preta", "category": "Acessorios", "descricao": "Adesivo realease Protheus" },
-        { "id": 19, "name": "Camiseta In Code We Trust'", "category": "Adulto", "descricao": "Camiseta preta 100% algodão" },
+        { "id": 19, "name": "Camiseta In Code We Trust", "category": "Adulto", "descricao": "Camiseta preta 100% algodão" },
         { "id": 20, "name": "Camiseta Onca Protheus", "category": "Adulto", "descricao": "Camiseta preta 100% algodão" }
 
       ],
@@ -35,16 +35,26 @@
     },
     "itens": {
       "items": [
-        { "id": "MOL-ONP001",  "preco": "R$ 335.00", "estoque": 10, "modelo": "Moletom", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 2, "preco": "R$ 335.00", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 3, "preco": "Não iniciada", "estoque": "Não iniciada", "mpdelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 4, "preco": "Não iniciada", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 5, "preco": "Não iniciada", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 6, "preco": "Não iniciada", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 7, "preco": "Não iniciada", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 8, "preco": "Não iniciada", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 9, "preco": "Não iniciada", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"},
-        { "id": 10,"preco": "Não iniciada", "estoque": "Não iniciada", "modelo": "Não iniciada", "cor": "Preto", "produto":"Moletom Onca Preta"}
+        { "id": "KC-CAP001",  "preco": "R$ 28.80", "estoque": 20, "modelo": "Caderneta", "cor": "Verde-Agua", "produto":"Caderno Capivara"},
+        { "id": "PINPR001", "preco": "R$ 25.00", "estoque": "20", "modelo": "Pin", "cor": "Amarelo", "produto":"Pin Protheus"},
+        { "id": "MOL-ONP001", "preco": "R$ 335.00", "estoque": "10", "modelo": "Moletom", "cor": "Preto", "produto":"Moletom Onca Preta"},
+        { "id": "MOU-SIMP010", "preco": "R$ 24.90", "estoque": "20", "modelo": "Mouse Pad", "cor": "Preto", "produto":"Mousepad Simples"},
+        { "id": "MOU-GAM011", "preco": "R$ 35.80", "estoque": "20", "modelo": "Mouse", "cor": "Preto", "produto":"Mouse"},
+        { "id": "MOL-EMB005", "preco": "R$ 49.90", "estoque": "20", "modelo": "Moleskine", "cor": "Azul", "produto":"Moleskine Astronauta"},
+        { "id": "MOU-CODE0", "preco": "R$ 49.90", "estoque": "20", "modelo": "Moleskine", "cor": "Roxo", "produto":"Moleskine faz com TOTVS"},
+        { "id": "MEA-CAP001", "preco": "R$ 28.90", "estoque": "10", "modelo": "Meia", "cor": "Verde-Oliva", "produto":"Meia Capivara"},
+        { "id": "MEA-CCR001", "preco": "R$ 99.00", "estoque": "10", "modelo": "Garrafa Termica", "cor": "Bege", "produto":"Meia Cachorro Caramelo"},
+        { "id": "GARF-VAN001","preco": "R$ 99.00", "estoque": "10", "modelo": "Garrafa Termica", "cor": "Preto", "produto":"Garrafa Termica TOTVS"},
+        { "id": "GARF-VAN002","preco": "R$ 79.90", "estoque": "20", "modelo": "Garrafa de vidro", "cor": "Transparente", "produto":"Garrafa de Vidro"},
+        { "id": "FON-BTO014","preco": "R$ 106.00", "estoque": "20", "modelo": "Fone", "cor": "Preto", "produto":"Fone de Ouvido"},
+        { "id": "COP-INO019","preco": "R$ 80.00", "estoque": "10", "modelo": "Garrafa", "cor": "Inox", "produto":"Garrafa TOTVS"},
+        { "id": "COP-TER001","preco": "R$ 80.00", "estoque": "8", "modelo": "R$ 24.90", "cor": "Preto", "produto":"Copo Termico TOTVS"},
+        { "id": "COP-TER002","preco": "R$ 80.00", "estoque": "20", "modelo": "Copo", "cor": "Branco", "produto":"Copo Termico"},
+        { "id": "CAN-MT001","preco": "R$ 8.00", "estoque": "20", "modelo": "Caneta", "cor": "Prata", "produto":"Caneta com Marca Texto"},
+        { "id": "CAM-GV001","preco": "R$ 89.00", "estoque": "20", "modelo": "Camiseta", "cor": "Preto", "produto":"Camiseta Padawan Cat"},
+        { "id": "ADES-002","preco": "R$ 11.50", "estoque": "20", "modelo": "Adesivo", "cor": "Preto", "produto":"Adesivo Onca Preta"},
+        { "id": "CAM-TRUST013","preco": "R$ 89.00", "estoque": "10", "modelo": "Camiseta", "cor": "Preto", "produto":"Camiseta In Code We Trust"},
+        { "id": "PRO-BG006","preco": "R$ 89.00", "estoque": "20", "modelo": "Camiseta", "cor": "Preto", "produto":"Camiseta Onca Protheus"}
       ],
       "hasNext": false
     },
