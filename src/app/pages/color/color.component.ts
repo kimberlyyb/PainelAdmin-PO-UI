@@ -10,7 +10,7 @@ import { PoPageDynamicTableActions } from '@po-ui/ng-templates';
 export class ColorComponent implements OnInit {
   titulo: string = 'meu titulo';
   readonly fields: Array<any> = [
-    { property: 'id', key: true, label: 'Código' },
+    { property: 'id', key: true, label: 'Id' },
     { property: 'name', label: 'Nome' }
   ];
 

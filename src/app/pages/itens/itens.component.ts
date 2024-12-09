@@ -14,10 +14,11 @@ export class ItensComponent implements OnInit {
   titulo: string = 'meu titulo';
   readonly fields: Array<any> = [
     { property: 'id', key: true, label: 'Código' },
-    { property: 'name', label: 'Nome' },
     { property: 'preco', label: 'Preço' },
     { property: 'estoque', label: 'Qtd Estoque' },
-    { property: 'modelo', label: 'Modelo' }
+    { property: 'modelo', label: 'Modelo' },
+    { property: 'cor', label: 'Cor' },
+    { property: 'produto', label: 'Produto' }
   ];
 
   readonly actions: PoPageDynamicTableActions = {
@@ -42,8 +43,16 @@ export class ItensComponent implements OnInit {
     switch(columnName) {
       case 'id':
         return 'Código';
-      case 'name':
-        return 'Nome';
+        case 'preco':
+          return 'Preço';
+          case 'estoque':
+        return 'Qtd Estoque';
+        case 'modelo':
+        return 'Modelo';
+        case 'cor':
+        return 'Cor';
+        case 'produto':
+        return 'Produto';
       default:
         return '';
     }
@@ -53,8 +62,16 @@ export class ItensComponent implements OnInit {
     switch(columnName) {
       case 'id':
         return element.id;
-      case 'name':
-        return element.name;
+        case 'preco':
+          return element.preco;
+          case 'estoque':
+        return element.estoque;
+        case 'modelo':
+        return element.modelo;
+        case 'cor':
+        return element.cor;
+        case 'produto':
+        return element.produto;
       default:
         return '';
     }

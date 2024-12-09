@@ -10,10 +10,10 @@ import { TasksService } from '../../shared/services/tasks/services/tasks.service
 })
 export class TasksComponent implements OnInit {
   readonly fields: Array<any> = [
-    { property: 'id', key: true, visible: true, label: 'Código' },
+    { property: 'id', key: true, visible: true, label: 'Id' },
     { property: 'name', label: 'Nome' },
     { property: 'category', label: 'Categoria' },
-    { property: 'preco', label: 'Preço' }
+    { property: 'descricao', label: 'Descrição' }
   ];
 
   readonly actions: PoPageDynamicTableActions = {
@@ -34,13 +34,13 @@ export class TasksComponent implements OnInit {
   getColumnTitle(columnName: string): string {
     switch(columnName) {
       case 'id':
-        return 'Código';
+        return 'Id';
       case 'name':
         return 'Nome';
       case 'category':
         return 'Categoria';
-      case 'preco':
-        return 'Preço';
+      case 'descricao':
+        return 'Descrição';
       default:
         return '';
     }
@@ -54,8 +54,8 @@ export class TasksComponent implements OnInit {
         return element.name;
       case 'category':
         return element.category;
-      case 'preco':
-        return element.preco;
+      case 'descricao':
+        return element.descricao;
       default:
         return '';
     }
